@@ -1,14 +1,17 @@
 package com.Gabriel.sgati.service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.Gabriel.sgati.dto.CreateUserRequest;
 import com.Gabriel.sgati.dto.UserDTO;
 import com.Gabriel.sgati.model.User;
 import com.Gabriel.sgati.repository.UserRepository;
+
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor

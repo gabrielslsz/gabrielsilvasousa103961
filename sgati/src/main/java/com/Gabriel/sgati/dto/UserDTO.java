@@ -1,10 +1,11 @@
 package com.Gabriel.sgati.dto;
 
+import com.Gabriel.sgati.model.User;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.Gabriel.sgati.model.User;
 
 @Data
 @Builder
